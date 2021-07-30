@@ -25,7 +25,8 @@ public class RegisterPage extends TopBarWithoutLogin {
     open(super.getRegisterButton().getAttribute("href"));
   }
 
-  public void fillTheForm(String first, String last, String email, String phone, String password) {
+  public void fillTheForm(String first, String last, String email, String phone, String password)
+      throws Exception {
     this.firstNameField.sendKeys(first);
     this.lastNameField.sendKeys(last);
     this.emailField.sendKeys(email);
@@ -37,6 +38,10 @@ public class RegisterPage extends TopBarWithoutLogin {
     this.privacyPolicyCheckbox.click();
 
     this.continueButton.click();
+
+    if($(By.xpath("//*[@id=\"account-register\"]/div[1]")).isDisplayed()){
+      throw new Exception ("Account already registered or other error when filling the form");
+    }
   }
 
   public boolean isSuccessfulRegistration() {

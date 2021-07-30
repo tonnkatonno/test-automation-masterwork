@@ -1,15 +1,36 @@
 package pages;
 
-import org.junit.jupiter.api.Test;
+public class HomePage {
+  private LoginPage loginPage;
+  private RegisterPage registerPage;
+  private TopBarWithoutLogin topBarWithoutLogin;
+  private TopBarLoggedIn topBarLoggedIn;
 
-public class HomePage extends BasePage {
-  public HomePage(){
-    super();
+  public HomePage() {
+    this.topBarWithoutLogin = new TopBarWithoutLogin();
+    this.loginPage = new LoginPage();
+    this.registerPage = new RegisterPage();
   }
 
-  @Test
-  public void test() {
-    RegisterPage registerPage = new RegisterPage();
+  public LoginPage getLoginPage() {
+    return loginPage;
+  }
 
+  public RegisterPage getRegisterPage() {
+    return registerPage;
+  }
+
+  public TopBarWithoutLogin getTopBarWithoutLogin() {
+    return topBarWithoutLogin;
+  }
+
+  public TopBarLoggedIn getTopBarLoggedIn() {
+    return topBarLoggedIn;
+  }
+
+  public void setTopBarLoggedIn(boolean isTrue) {
+    if (isTrue) {
+      this.topBarLoggedIn = new TopBarLoggedIn();
+    }
   }
 }
