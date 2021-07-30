@@ -1,0 +1,10 @@
+pages/TopBar.java
+ pages.TopBar
+pages/BasePage.java
+ pages.BasePage
+pages/HomePage.java
+ pages.HomePage
+pages/registerPage.java
+ pages.registerPage
+RegistrationTest.java
+ RegistrationTest
