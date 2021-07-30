@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.open;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
-public class registerPage extends TopBar {
+public class RegisterPage extends TopBarWithoutLogin {
 
   private SelenideElement firstNameField = $(By.id("input-firstname"));
   private SelenideElement lastNameField = $(By.id("input-lastname"));
@@ -19,7 +19,8 @@ public class registerPage extends TopBar {
   private SelenideElement continueButton =
       $(By.xpath("//*[@id=\"content\"]/form/div/div/input[2]"));
 
-  public registerPage() {
+
+  public RegisterPage() {
     super();
     open(super.getRegisterButton().getAttribute("href"));
   }
@@ -40,7 +41,14 @@ public class registerPage extends TopBar {
 
   public boolean isSuccessfulRegistration() {
     if ($(By.xpath("//*[@id=\"content\"]/h1")).getText()
-        .equals("Your Account Has Been Created!")){
+        .equals("Your Account Has Been Created!")) {
+      return true;
+    }
+    return false;
+  }
+
+  public boolean isLoggedIn() {
+    if ($(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")).isDisplayed()) {
       return true;
     }
     return false;

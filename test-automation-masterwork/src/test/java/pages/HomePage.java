@@ -9,7 +9,7 @@ public class HomePage extends BasePage {
 
   @Test
   public void test() {
-    registerPage registerPage = new registerPage();
+    RegisterPage registerPage = new RegisterPage();
 
   }
 }
