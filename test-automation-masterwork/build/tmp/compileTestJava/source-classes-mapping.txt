@@ -1,16 +1,16 @@
-pages/BasePage.java
- pages.BasePage
-pages/TopBarWithoutLogin.java
- pages.TopBarWithoutLogin
-pages/RegisterPage.java
- pages.RegisterPage
 pages/LoginPage.java
  pages.LoginPage
-pages/TopBarLoggedIn.java
- pages.TopBarLoggedIn
-pages/HomePage.java
- pages.HomePage
+pages/TopBarWithoutLogin.java
+ pages.TopBarWithoutLogin
 LoginTest.java
  LoginTest
+pages/TopBarLoggedIn.java
+ pages.TopBarLoggedIn
+pages/BasePage.java
+ pages.BasePage
+pages/HomePage.java
+ pages.HomePage
+pages/RegisterPage.java
+ pages.RegisterPage
 RegistrationTest.java
  RegistrationTest

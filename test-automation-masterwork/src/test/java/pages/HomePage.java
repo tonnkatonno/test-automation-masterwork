@@ -1,36 +1,66 @@
 package pages;
 
-public class HomePage {
-  private LoginPage loginPage;
-  private RegisterPage registerPage;
-  private TopBarWithoutLogin topBarWithoutLogin;
-  private TopBarLoggedIn topBarLoggedIn;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+
+import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.By;
+
+public class HomePage extends BasePage {
+  private SelenideElement registerButton;
+  private SelenideElement loginButton;
+  private SelenideElement cartButton;
+  private SelenideElement checkOutButton;
+  private SelenideElement myAccountButton;
+
 
   public HomePage() {
-    this.topBarWithoutLogin = new TopBarWithoutLogin();
-    this.loginPage = new LoginPage();
-    this.registerPage = new RegisterPage();
+    open("");
+    $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/i")).click();
+    this.registerButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a"));
+    this.loginButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a"));
+    this.cartButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[4]/a/span"));
+    this.checkOutButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[5]/a"));
+    this.myAccountButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/i"));
   }
 
-  public LoginPage getLoginPage() {
-    return loginPage;
+  public void navigateToRegisterPage() {
+    registerButton.click();
   }
 
-  public RegisterPage getRegisterPage() {
-    return registerPage;
+  public void navigateToTheLoginPage() {
+    loginButton.click();
   }
 
-  public TopBarWithoutLogin getTopBarWithoutLogin() {
-    return topBarWithoutLogin;
+  public void navigateToTheCartPage() {
+    cartButton.click();
   }
 
-  public TopBarLoggedIn getTopBarLoggedIn() {
-    return topBarLoggedIn;
+  public void navigateToTheCheckoutPage() {
+    checkOutButton.click();
   }
 
-  public void setTopBarLoggedIn(boolean isTrue) {
-    if (isTrue) {
-      this.topBarLoggedIn = new TopBarLoggedIn();
-    }
+  public void navigateToTheMyAccountPage() {
+    myAccountButton.click();
+  }
+
+  public SelenideElement getRegisterButton() {
+    return registerButton;
+  }
+
+  public SelenideElement getLoginButton() {
+    return loginButton;
+  }
+
+  public SelenideElement getCartButton() {
+    return cartButton;
+  }
+
+  public SelenideElement getCheckOutButton() {
+    return checkOutButton;
+  }
+
+  public SelenideElement getMyAccountButton() {
+    return myAccountButton;
   }
 }
