@@ -2,17 +2,21 @@ pages/TopBarLoggedIn.java
  pages.TopBarLoggedIn
 pages/BasePage.java
  pages.BasePage
+pages/LoginPage.java
+ pages.LoginPage
+pages/RegisterPage.java
+ pages.RegisterPage
+pages/TopBarWithoutLogin.java
+ pages.TopBarWithoutLogin
 pages/HomePage.java
  pages.HomePage
 LoginTest.java
  LoginTest
-pages/TopBarWithoutLogin.java
- pages.TopBarWithoutLogin
-pages/LoginPage.java
- pages.LoginPage
 RegistrationTest.java
  RegistrationTest
-pages/RegisterPage.java
- pages.RegisterPage
 UsingPrivacyStatementTest.java
  UsingPrivacyStatementTest
+Utility.java
+ Utility
+ListingDataTest.java
+ ListingDataTest
