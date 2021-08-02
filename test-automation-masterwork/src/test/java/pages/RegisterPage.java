@@ -15,6 +15,8 @@ public class RegisterPage {
   private SelenideElement confirmPasswordField;
   private SelenideElement privacyPolicyCheckbox;
   private SelenideElement continueButton;
+  private SelenideElement privacyPolicy;
+  private SelenideElement closeButtonPrivacyPolicy;
 
 
   public RegisterPage() {
@@ -28,7 +30,7 @@ public class RegisterPage {
         $(By.xpath("//*[@id=\"content\"]/form/div/div/input[1]"));
     this.continueButton =
         $(By.xpath("//*[@id=\"content\"]/form/div/div/input[2]"));
-
+    this.privacyPolicy = $(By.xpath("//*[@id=\"content\"]/form/div/div/a/b"));
 
   }
 
@@ -68,5 +70,18 @@ public class RegisterPage {
       return true;
     }
     return false;
+  }
+
+  public void clickThePrivacyPolicy() {
+    this.privacyPolicy.click();
+    this.closeButtonPrivacyPolicy =
+        $(By.xpath("//*[@id=\"modal-agree\"]/div/div/div[1]/button"));
+  }
+
+  public void closeThePrivacyPolicy() {
+    this.closeButtonPrivacyPolicy.click();
+  }
+  public SelenideElement getCloseButtonPrivacyPolicy(){
+    return this.closeButtonPrivacyPolicy;
   }
 }
