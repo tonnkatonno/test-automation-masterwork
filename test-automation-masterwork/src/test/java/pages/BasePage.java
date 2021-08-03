@@ -5,7 +5,7 @@ import com.codeborne.selenide.Configuration;
 public class BasePage {
 
   public BasePage() {
-    Configuration.baseUrl = "https://demo.opencart.com/";
+    Configuration.baseUrl = "http://test-automation-shop2.greenfox.academy/";
     Configuration.browser = "chrome";
     Configuration.startMaximized = true;
   }
