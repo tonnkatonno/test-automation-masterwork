@@ -1,3 +1,5 @@
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
 import com.codeborne.selenide.SelenideElement;
 import java.util.List;
 import org.junit.jupiter.api.Test;
@@ -8,10 +10,8 @@ public class ListingDataTest {
   public void printTheDataOfAllDesktops() {
     HomePage homePage = new HomePage();
     homePage.navigateToTheAllDesktopsPage();
-    List<SelenideElement> list =Utility.listOfProducts();
-    Utility.printListOfSelenideElements(list);
+    List<SelenideElement> list = Utility.listOfProducts();
+    assertThat(list.size()).isEqualTo(12);
   }
-
-
 }
 
