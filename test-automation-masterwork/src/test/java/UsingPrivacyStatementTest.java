@@ -13,8 +13,10 @@ public class UsingPrivacyStatementTest {
     RegisterPage registerPage = new RegisterPage();
     registerPage.clickThePrivacyPolicy();
     registerPage.closeThePrivacyPolicy();
-    assertThat(registerPage.getCloseButtonPrivacyPolicy().isDisplayed()).isFalse();
+    assertThat(registerPage.getCloseButtonPrivacyPolicy().isDisplayed()).isFalse()
+        .withFailMessage("Privacy Policy close button is displayed but it shouldn't");
   }
+
   @Test
   public void usingPrivacyShouldFail() {
     HomePage homePage = new HomePage();
@@ -22,7 +24,8 @@ public class UsingPrivacyStatementTest {
     RegisterPage registerPage = new RegisterPage();
     registerPage.clickThePrivacyPolicy();
     registerPage.closeThePrivacyPolicy();
-    assertThat(registerPage.getCloseButtonPrivacyPolicy().isDisplayed());
+    assertThat(registerPage.getCloseButtonPrivacyPolicy().isDisplayed()).withFailMessage(
+        "Privacy Policy close button should displayed but isn't shown");
   }
 }
 

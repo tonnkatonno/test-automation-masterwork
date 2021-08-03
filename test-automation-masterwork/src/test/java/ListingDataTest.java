@@ -11,7 +11,8 @@ public class ListingDataTest {
     HomePage homePage = new HomePage();
     homePage.navigateToTheAllDesktopsPage();
     List<SelenideElement> list = Utility.listOfProducts();
-    assertThat(list.size()).isEqualTo(15);
+    assertThat(list.size()).isEqualTo(15)
+        .withFailMessage("Page should have 15 elements but it has:" + list.size() + " element/s");
   }
 }
 
