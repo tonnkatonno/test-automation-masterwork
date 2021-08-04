@@ -10,19 +10,19 @@ PaginationTest.java
  PaginationTest
 pages/LoginPage.java
  pages.LoginPage
-InputOfNewDataTest.java
- InputOfNewDataTest
+pages/MyAccountPage.java
+ pages.MyAccountPage
 pages/HomePage.java
  pages.HomePage
-LoginTest.java
- LoginTest
+RegistrationTest.java
+ RegistrationTest
 UsingPrivacyStatementTest.java
  UsingPrivacyStatementTest
 ListingDataTest.java
  ListingDataTest
-RegistrationTest.java
- RegistrationTest
+InputOfNewDataTest.java
+ InputOfNewDataTest
+LoginTest.java
+ LoginTest
 ExistingDataModification.java
  ExistingDataModification
-pages/MyAccountPage.java
- pages.MyAccountPage

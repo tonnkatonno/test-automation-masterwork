@@ -1,5 +1,7 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+import com.codeborne.selenide.Selenide;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -10,6 +12,11 @@ import pages.MacBookPage;
 public class InputOfNewDataTest extends LoginTest {
   private HomePage homePage;
   private LoginPage loginPage;
+
+  @AfterEach
+  public void tearDown(){
+    Selenide.closeWindow();
+  }
 
   @BeforeEach
   public void setup(){

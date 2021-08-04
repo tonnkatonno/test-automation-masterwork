@@ -1,5 +1,7 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+import com.codeborne.selenide.Selenide;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -9,6 +11,11 @@ import pages.LoginPage;
 public class LoginTest {
   private HomePage homePage;
   private LoginPage loginPage;
+
+  @AfterEach
+  public void tearDown() {
+    Selenide.closeWindow();
+  }
 
   @ParameterizedTest
   @CsvFileSource(resources = "registered_users.csv", numLinesToSkip = 1)

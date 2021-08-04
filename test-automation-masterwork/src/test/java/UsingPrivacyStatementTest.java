@@ -1,11 +1,18 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+import com.codeborne.selenide.Selenide;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
 import pages.RegisterPage;
 
 
 public class UsingPrivacyStatementTest {
+  @AfterEach
+  public void tearDown(){
+    Selenide.closeWindow();
+  }
+
   @Test
   public void usingPrivacyShouldPass() {
     HomePage homePage = new HomePage();
