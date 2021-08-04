@@ -7,26 +7,51 @@ import pages.HomePage;
 import pages.LoginPage;
 
 public class LoginTest {
+  private HomePage homePage;
+  private LoginPage loginPage;
+
   @ParameterizedTest
   @CsvFileSource(resources = "registered_users.csv", numLinesToSkip = 1)
   public void loginTestShouldPass(String email, String password) {
-    HomePage homePage = new HomePage();
-    homePage.navigateToTheLoginPage();
+    this.homePage = new HomePage();
+    this.homePage.navigateToTheLoginPage();
 
-    LoginPage loginPage = new LoginPage();
-    loginPage.login(email,password);
+    this.loginPage = new LoginPage();
+    this.loginPage.login(email, password);
 
     assertThat(loginPage.isLoggedIn()).isTrue().withFailMessage("Login process failed!");
-    loginPage.logOut();
+    this.loginPage.logOut();
   }
+
   @Test
-  public void loginTestShouldFail(){
-    HomePage homePage = new HomePage();
-    homePage.navigateToTheLoginPage();
+  public void loginTestShouldFail() {
+    this.homePage = new HomePage();
+    this.homePage.navigateToTheLoginPage();
 
-    LoginPage loginPage = new LoginPage();
-    loginPage.login("kutzafarka.oooop@javascript.pytonmenoam","ezegynagyonerosjelszo123");
+    this.loginPage = new LoginPage();
+    this.loginPage.login("kutzafarka.oooop@javascript.pytonmenoam", "ezegynagyonerosjelszo123");
 
-    assertThat(loginPage.isLoggedIn()).isFalse().withFailMessage("Login process not failed! It should fail...");
+    assertThat(this.loginPage.isLoggedIn()).isFalse()
+        .withFailMessage("Login process not failed! It should fail...");
+  }
+
+  @Test
+  public void simpleLogin() {
+    this.homePage = new HomePage();
+    this.homePage.navigateToTheLoginPage();
+
+    this.loginPage = new LoginPage();
+    this.loginPage.login("apalay3d@sciencedaily.com", "rj8nDsn");
+
+    assertThat(this.loginPage.isLoggedIn()).isTrue().withFailMessage("Login process failed!");
+    this.homePage.navigateToHomePage();
+  }
+
+  public HomePage getHomePage() {
+    return homePage;
+  }
+
+  public LoginPage getLoginPage() {
+    return loginPage;
   }
 }
