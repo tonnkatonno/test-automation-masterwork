@@ -2,32 +2,30 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.MacBookPage;
 
-public class InputOfNewDataTest extends LoginTest {
-  private HomePage homePage;
-  private LoginPage loginPage;
-
+public class InputOfNewDataTest {
   @AfterEach
-  public void tearDown(){
+  public void tearDown() {
     Selenide.closeWindow();
-  }
-
-  @BeforeEach
-  public void setup(){
-    simpleLogin();
-    this.homePage=getHomePage();
-    this.loginPage=getLoginPage();
   }
 
   @ParameterizedTest
   @CsvFileSource(resources = "comment_data.csv", numLinesToSkip = 1)
   public void commentsShouldSubmittedProperly(String name, String comment, int rating) {
+    HomePage homePage = new HomePage();
+    homePage.navigateToTheLoginPage();
+
+    LoginPage loginPage = new LoginPage();
+    loginPage.login("apalay3d@sciencedaily.com", "rj8nDsn");
+
+    assertThat(loginPage.isLoggedIn()).isTrue().withFailMessage("Login process failed!");
+    homePage.navigateToHomePage();
+
     homePage.navigateToMacBookPage();
     MacBookPage macBookPage = new MacBookPage();
     macBookPage.fillTheReview(name, comment, rating);

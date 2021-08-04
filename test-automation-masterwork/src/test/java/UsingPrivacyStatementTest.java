@@ -9,7 +9,7 @@ import pages.RegisterPage;
 
 public class UsingPrivacyStatementTest {
   @AfterEach
-  public void tearDown(){
+  public void tearDown() {
     Selenide.closeWindow();
   }
 

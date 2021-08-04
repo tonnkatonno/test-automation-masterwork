@@ -7,13 +7,13 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 public class HomePage extends BasePage {
-  private SelenideElement registerButton;
-  private SelenideElement loginButton;
-  private SelenideElement cartButton;
-  private SelenideElement checkOutButton;
-  private SelenideElement myAccountButton;
-  private SelenideElement allDesktops;
-  private SelenideElement  macBook;
+  private final SelenideElement registerButton;
+  private final SelenideElement loginButton;
+  private final SelenideElement cartButton;
+  private final SelenideElement checkOutButton;
+  private final SelenideElement myAccountButton;
+  private final SelenideElement allDesktops;
+  private final SelenideElement macBook;
 
 
   public HomePage() {
@@ -43,11 +43,12 @@ public class HomePage extends BasePage {
   public void navigateToTheAllDesktopsPage() {
     open(allDesktops.getAttribute("href"));
   }
-  public void navigateToEditAccountInfoPage(){
+
+  public void navigateToEditAccountInfoPage() {
     myAccountButton.click();
-    SelenideElement myAccount=$(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a"));
+    SelenideElement myAccount = $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a"));
     myAccount.click();
-    SelenideElement editAccountInfo=$(By.xpath("//*[@id=\"content\"]/ul[1]/li[1]/a"));
+    SelenideElement editAccountInfo = $(By.xpath("//*[@id=\"content\"]/ul[1]/li[1]/a"));
     editAccountInfo.click();
   }
 

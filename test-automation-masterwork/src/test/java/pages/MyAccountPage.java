@@ -7,9 +7,9 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 public class MyAccountPage {
-  private SelenideElement firstNameField;
-  private SelenideElement lastNameField;
-  private SelenideElement continueButton;
+  private final SelenideElement firstNameField;
+  private final SelenideElement lastNameField;
+  private final SelenideElement continueButton;
   private String oldFirstName;
   private String oldLastName;
   private String newFirstName;
@@ -37,9 +37,10 @@ public class MyAccountPage {
   public String getAccountUpdatedMessage() {
     $(By.xpath("//*[@id=\"account-account\"]/div[1]")).has(
         Condition.matchText("Success: Your account has been successfully updated."));
-    return  $(By.xpath("//*[@id=\"account-account\"]/div[1]")).getText();
+    return $(By.xpath("//*[@id=\"account-account\"]/div[1]")).getText();
   }
-  public void updateInfo(){
+
+  public void updateInfo() {
     newFirstName = this.firstNameField.getAttribute("value");
     newLastName = this.lastNameField.getAttribute("value");
   }

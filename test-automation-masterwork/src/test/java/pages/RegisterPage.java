@@ -7,15 +7,15 @@ import org.openqa.selenium.By;
 
 public class RegisterPage {
 
-  private SelenideElement firstNameField;
-  private SelenideElement lastNameField;
-  private SelenideElement emailField;
-  private SelenideElement phoneField;
-  private SelenideElement passwordField;
-  private SelenideElement confirmPasswordField;
-  private SelenideElement privacyPolicyCheckbox;
-  private SelenideElement continueButton;
-  private SelenideElement privacyPolicy;
+  private final SelenideElement firstNameField;
+  private final SelenideElement lastNameField;
+  private final SelenideElement emailField;
+  private final SelenideElement phoneField;
+  private final SelenideElement passwordField;
+  private final SelenideElement confirmPasswordField;
+  private final SelenideElement privacyPolicyCheckbox;
+  private final SelenideElement continueButton;
+  private final SelenideElement privacyPolicy;
   private SelenideElement closeButtonPrivacyPolicy;
 
 
@@ -59,17 +59,11 @@ public class RegisterPage {
   }
 
   public boolean isLogOutSuccessful() {
-    if ($(By.xpath("//*[@id=\"content\"]/h1")).getText().contains("Logout")) {
-      return true;
-    }
-    return false;
+    return $(By.xpath("//*[@id=\"content\"]/h1")).getText().contains("Logout");
   }
 
   public boolean isAccountSuccessfullyRegistered() {
-    if ($(By.xpath("//*[@id=\"content\"]/h1")).getText().contains("Has Been Created")) {
-      return true;
-    }
-    return false;
+    return $(By.xpath("//*[@id=\"content\"]/h1")).getText().contains("Has Been Created");
   }
 
   public void clickThePrivacyPolicy() {
@@ -81,7 +75,8 @@ public class RegisterPage {
   public void closeThePrivacyPolicy() {
     this.closeButtonPrivacyPolicy.click();
   }
-  public SelenideElement getCloseButtonPrivacyPolicy(){
+
+  public SelenideElement getCloseButtonPrivacyPolicy() {
     return this.closeButtonPrivacyPolicy;
   }
 }

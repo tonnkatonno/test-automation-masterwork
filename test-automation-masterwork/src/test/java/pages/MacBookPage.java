@@ -7,11 +7,11 @@ import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
 public class MacBookPage {
-  private SelenideElement writeACommentButton;
-  private SelenideElement nameField;
-  private SelenideElement commentField;
+  private final SelenideElement writeACommentButton;
+  private final SelenideElement nameField;
+  private final SelenideElement commentField;
   private SelenideElement ratingRadio;
-  private SelenideElement continueSubmit;
+  private final SelenideElement continueSubmit;
 
   public MacBookPage() {
     this.writeACommentButton = $(By.xpath("//*[@id=\"content\"]/div/div[2]/div[3]/p/a[2]"));

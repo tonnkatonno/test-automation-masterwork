@@ -8,13 +8,13 @@ import org.openqa.selenium.By;
 
 public class LoginPage {
 
-  private SelenideElement emailField = $(By.id("input-email"));
-  private SelenideElement passwordField = $(By.id("input-password"));
+  private final SelenideElement emailField = $(By.id("input-email"));
+  private final SelenideElement passwordField = $(By.id("input-password"));
 
-  private SelenideElement loginButton =
+  private final SelenideElement loginButton =
       $(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
 
-  private SelenideElement myAccountButton =
+  private final SelenideElement myAccountButton =
       $(By.linkText("My Account"));
 
   public void login(String email, String password) {
@@ -24,10 +24,7 @@ public class LoginPage {
   }
 
   public boolean isLoggedIn() {
-    if ($(By.xpath("//*[@id=\"column-right\"]/div/a[13]")).getText().contains("out")) {
-      return true;
-    }
-    return false;
+    return $(By.xpath("//*[@id=\"column-right\"]/div/a[13]")).getText().contains("out");
   }
 
   public void logOut() {

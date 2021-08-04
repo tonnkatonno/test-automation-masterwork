@@ -1,28 +1,28 @@
-pages/RegisterPage.java
- pages.RegisterPage
-Utility.java
- Utility
-pages/BasePage.java
- pages.BasePage
-pages/MacBookPage.java
- pages.MacBookPage
-PaginationTest.java
- PaginationTest
+InputOfNewDataTest.java
+ InputOfNewDataTest
 pages/LoginPage.java
  pages.LoginPage
-pages/MyAccountPage.java
- pages.MyAccountPage
-pages/HomePage.java
- pages.HomePage
-RegistrationTest.java
- RegistrationTest
 UsingPrivacyStatementTest.java
  UsingPrivacyStatementTest
 ListingDataTest.java
  ListingDataTest
-InputOfNewDataTest.java
- InputOfNewDataTest
-LoginTest.java
- LoginTest
 ExistingDataModification.java
  ExistingDataModification
+pages/RegisterPage.java
+ pages.RegisterPage
+pages/MyAccountPage.java
+ pages.MyAccountPage
+pages/BasePage.java
+ pages.BasePage
+pages/HomePage.java
+ pages.HomePage
+pages/MacBookPage.java
+ pages.MacBookPage
+LoginTest.java
+ LoginTest
+Utility.java
+ Utility
+RegistrationTest.java
+ RegistrationTest
+PaginationTest.java
+ PaginationTest
