@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-03T20:10:15" hostname="LAPTOP-0VTJOVSC" time="13.141">
+  <properties/>
+  <testcase name="[1] apalay3d@sciencedaily.com, rj8nDsn" classname="LoginTest" time="6.922"/>
+  <testcase name="[2] dgauld3e@themeforest.net, Jj1Gq2z5cjnO" classname="LoginTest" time="3.235"/>
+  <testcase name="[3] gyesinov3f@whitehouse.gov, uEKqtgKg" classname="LoginTest" time="2.975"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 19685
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 03, 2021 10:10:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

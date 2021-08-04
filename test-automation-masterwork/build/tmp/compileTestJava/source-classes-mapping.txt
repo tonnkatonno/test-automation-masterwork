@@ -1,24 +1,24 @@
-LoginTest.java
- LoginTest
-Utility.java
- Utility
-pages/LoginPage.java
- pages.LoginPage
 pages/RegisterPage.java
  pages.RegisterPage
-RegistrationTest.java
- RegistrationTest
+Utility.java
+ Utility
 UsingPrivacyStatementTest.java
  UsingPrivacyStatementTest
-pages/TopBarLoggedIn.java
- pages.TopBarLoggedIn
-pages/BasePage.java
- pages.BasePage
-pages/HomePage.java
- pages.HomePage
-pages/TopBarWithoutLogin.java
- pages.TopBarWithoutLogin
 ListingDataTest.java
  ListingDataTest
 PaginationTest.java
  PaginationTest
+pages/BasePage.java
+ pages.BasePage
+RegistrationTest.java
+ RegistrationTest
+pages/HomePage.java
+ pages.HomePage
+LoginTest.java
+ LoginTest
+pages/LoginPage.java
+ pages.LoginPage
+InputOfNewDataTest.java
+ InputOfNewDataTest
+pages/MacBookPage.java
+ pages.MacBookPage

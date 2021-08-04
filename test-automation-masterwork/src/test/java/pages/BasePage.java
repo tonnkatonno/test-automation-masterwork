@@ -9,5 +9,4 @@ public class BasePage {
     Configuration.browser = "chrome";
     Configuration.startMaximized = true;
   }
-
 }

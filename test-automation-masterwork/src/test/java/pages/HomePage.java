@@ -13,6 +13,7 @@ public class HomePage extends BasePage {
   private SelenideElement checkOutButton;
   private SelenideElement myAccountButton;
   private SelenideElement allDesktops;
+  private SelenideElement macBook;
 
 
   public HomePage() {
@@ -24,6 +25,7 @@ public class HomePage extends BasePage {
     this.checkOutButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[5]/a"));
     this.myAccountButton = $(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/i"));
     this.allDesktops = $(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a"));
+    this.macBook = $(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[1]/a/img"));
   }
 
   public void navigateToRegisterPage() {
@@ -33,7 +35,12 @@ public class HomePage extends BasePage {
   public void navigateToTheLoginPage() {
     loginButton.click();
   }
-  public void navigateToTheAllDesktopsPage(){
+
+  public void navigateToMacBookPage() {
+    this.macBook.click();
+  }
+
+  public void navigateToTheAllDesktopsPage() {
     open(allDesktops.getAttribute("href"));
   }
 
@@ -47,6 +54,10 @@ public class HomePage extends BasePage {
 
   public void navigateToTheMyAccountPage() {
     myAccountButton.click();
+  }
+
+  public void navigateToHomePage() {
+    open("");
   }
 
   public SelenideElement getRegisterButton() {
