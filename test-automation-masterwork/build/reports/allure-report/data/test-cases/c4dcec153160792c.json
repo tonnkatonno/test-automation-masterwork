@@ -1,0 +1,54 @@
+{
+  "uid" : "c4dcec153160792c",
+  "name" : "usingPrivacyShouldFail()",
+  "fullName" : "UsingPrivacyStatementTest.usingPrivacyShouldFail",
+  "historyId" : "a239cb83c5c758201899fa40e8c6f642",
+  "time" : {
+    "start" : 1628143225139,
+    "stop" : 1628143229678,
+    "duration" : 4539
+  },
+  "description" : "Cover a unsuccessful privacy statement open, navigates from the home page to the register page, open up the Privacy Policy",
+  "descriptionHtml" : "<p>Cover a unsuccessful privacy statement open, navigates from the home page to the register page, open up the Privacy Policy</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Using Privacy Statement : Cover a unsuccessful Privacy Policy open"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "UsingPrivacyStatementTest"
+  }, {
+    "name" : "testClass",
+    "value" : "UsingPrivacyStatementTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "usingPrivacyShouldFail"
+  }, {
+    "name" : "suite",
+    "value" : "UsingPrivacyStatementTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4dcec153160792c.json",
+  "parameterValues" : [ ]
+}

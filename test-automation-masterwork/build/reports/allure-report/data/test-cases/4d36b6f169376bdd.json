@@ -1,0 +1,54 @@
+{
+  "uid" : "4d36b6f169376bdd",
+  "name" : "[8] Peder, Vokins, egjbshwjxdp@dk.etlmki, 9847670677, xThQtvqzsV",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "b508c98ceaaf517c685f6595ed64d803",
+  "time" : {
+    "start" : 1628143085210,
+    "stop" : 1628143090925,
+    "duration" : 5715
+  },
+  "description" : "Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data",
+  "descriptionHtml" : "<p>Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Registration : Cover various successful registration"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d36b6f169376bdd.json",
+  "parameterValues" : [ ]
+}

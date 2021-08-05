@@ -1,0 +1,54 @@
+{
+  "uid" : "3268bbc8359c97d2",
+  "name" : "loginTestShouldFail()",
+  "fullName" : "LoginTest.loginTestShouldFail",
+  "historyId" : "f63e50e87c8a58e73f8d508f5f9c80be",
+  "time" : {
+    "start" : 1628143013850,
+    "stop" : 1628143018485,
+    "duration" : 4635
+  },
+  "description" : "Cover a unsuccessful login, navigates from the home page to the login page, and fills the fields with invalid data, and attempt to log in",
+  "descriptionHtml" : "<p>Cover a unsuccessful login, navigates from the home page to the login page, and fills the fields with invalid data, and attempt to log in</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login : Cover a unsuccessful login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTestShouldFail"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3268bbc8359c97d2.json",
+  "parameterValues" : [ ]
+}

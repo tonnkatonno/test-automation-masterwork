@@ -1,0 +1,54 @@
+{
+  "uid" : "d0e3f6146d3c9bfb",
+  "name" : "[28] Alexandro, Sondon, gziwlkfpymp@ha.seiaqd, 3209972252, EfYloc",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "7c0c85ee0f58639a45b9bb8a879684b0",
+  "time" : {
+    "start" : 1628143201879,
+    "stop" : 1628143207761,
+    "duration" : 5882
+  },
+  "description" : "Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data",
+  "descriptionHtml" : "<p>Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Registration : Cover various successful registration"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0e3f6146d3c9bfb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,54 @@
+{
+  "uid" : "30a59d5c1a3da7c",
+  "name" : "[2] dgauld3e@themeforest.net, Jj1Gq2z5cjnO",
+  "fullName" : "LoginTest.loginTestShouldPass",
+  "historyId" : "ce948c3d618faf0a7b46b31bf3035e05",
+  "time" : {
+    "start" : 1628143023830,
+    "stop" : 1628143029374,
+    "duration" : 5544
+  },
+  "description" : "Cover various successful logins, navigates from the home page to the login page, and fills the fields from the .csv, and logs in",
+  "descriptionHtml" : "<p>Cover various successful logins, navigates from the home page to the login page, and fills the fields from the .csv, and logs in</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login : Cover various successful login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTestShouldPass"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30a59d5c1a3da7c.json",
+  "parameterValues" : [ ]
+}

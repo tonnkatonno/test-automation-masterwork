@@ -1,0 +1,54 @@
+{
+  "uid" : "246f558c90a643f4",
+  "name" : "[9] Merrile, Borwick, zhypxoxwctz@cf.qbmnzw, 5665015361, Xc4xjrcfBSdu",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "fcc41a47c7d35e5a196c27a753881c3f",
+  "time" : {
+    "start" : 1628143090927,
+    "stop" : 1628143096694,
+    "duration" : 5767
+  },
+  "description" : "Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data",
+  "descriptionHtml" : "<p>Cover various successful registration, navigates from the home page to the registration page, and fills the form from the .csv with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Registration : Cover various successful registration"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "246f558c90a643f4.json",
+  "parameterValues" : [ ]
+}

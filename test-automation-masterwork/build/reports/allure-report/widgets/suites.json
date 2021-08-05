@@ -1,17 +1,6 @@
 {
   "total" : 7,
   "items" : [ {
-    "uid" : "69284e8223e4673c9952b238191a3c05",
-    "name" : "RegistrationTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 38,
-      "unknown" : 0,
-      "total" : 38
-    }
-  }, {
     "uid" : "fe432328a43ca5d7a8bd2d6c10122894",
     "name" : "ExistingDataModification",
     "statistic" : {
@@ -32,6 +21,17 @@
       "passed" : 37,
       "unknown" : 0,
       "total" : 37
+    }
+  }, {
+    "uid" : "69284e8223e4673c9952b238191a3c05",
+    "name" : "RegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 32,
+      "unknown" : 0,
+      "total" : 32
     }
   }, {
     "uid" : "b9a196f305ae86bf6bf452c18364a114",

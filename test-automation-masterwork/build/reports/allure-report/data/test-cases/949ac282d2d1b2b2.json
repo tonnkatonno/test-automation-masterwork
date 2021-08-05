@@ -1,0 +1,54 @@
+{
+  "uid" : "949ac282d2d1b2b2",
+  "name" : "[37] Poul Munroe, vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl, 1",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "e95b435c9e37d8dbc2221db02fa23b8",
+  "time" : {
+    "start" : 1628142996438,
+    "stop" : 1628143004456,
+    "duration" : 8018
+  },
+  "description" : "Navigates to the home page, then logs in, navigate to the MacBook page, fills the comment fields up from the comment_data.csv, and then sends the comment",
+  "descriptionHtml" : "<p>Navigates to the home page, then logs in, navigate to the MacBook page, fills the comment fields up from the comment_data.csv, and then sends the comment</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Input of new data : At least one new data input, validate the input was successful"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "949ac282d2d1b2b2.json",
+  "parameterValues" : [ ]
+}

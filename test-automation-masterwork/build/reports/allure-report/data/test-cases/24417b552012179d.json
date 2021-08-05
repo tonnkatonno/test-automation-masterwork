@@ -1,0 +1,54 @@
+{
+  "uid" : "24417b552012179d",
+  "name" : "paginationShouldPass()",
+  "fullName" : "PaginationTest.paginationShouldPass",
+  "historyId" : "74e81d0a8ac204291f8f100250fab747",
+  "time" : {
+    "start" : 1628143034713,
+    "stop" : 1628143039689,
+    "duration" : 4976
+  },
+  "description" : "Navigates to the home page, then the all desktops page, and counts the number of elements in the page it should 15",
+  "descriptionHtml" : "<p>Navigates to the home page, then the all desktops page, and counts the number of elements in the page it should 15</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Pagination : After listing a more than one page long data list, navigate to the next page of the data list"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "22776@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "PaginationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "PaginationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "paginationShouldPass"
+  }, {
+    "name" : "suite",
+    "value" : "PaginationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24417b552012179d.json",
+  "parameterValues" : [ ]
+}

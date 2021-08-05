@@ -1,4 +1,114 @@
 {
-  "total" : 121,
-  "items" : [ ]
+  "total" : 11,
+  "items" : [ {
+    "uid" : "017b685ac1990ef4f2cecac602715bec",
+    "name" : "Existing data modification : Modifying data, validate that the change was successful ||AND|| Repetitive data entry from external source : From a .csv file do a parameterized test and fill the page up with at least 3 pieces of data ||AND|| Logout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 37,
+      "unknown" : 0,
+      "total" : 37
+    }
+  }, {
+    "uid" : "67076a69a3d9b5a715b1083fed74cb96",
+    "name" : "Input of new data : At least one new data input, validate the input was successful",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 37,
+      "unknown" : 0,
+      "total" : 37
+    }
+  }, {
+    "uid" : "997069e7ae37733452e3459dcde02c18",
+    "name" : "Registration : Cover various successful registration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 31,
+      "unknown" : 0,
+      "total" : 31
+    }
+  }, {
+    "uid" : "a5f77346db3d6f87e746ebf284d6bec1",
+    "name" : "Login : Cover various successful login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9d8b0f260bcf1d770b3ba7f8c6155921",
+    "name" : "Listing data : Execute a data listing from any data available on the page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e4dd40c8e028af6f6f1e21f7ae689b55",
+    "name" : "Login : Cover a successful login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a00bc5329f9e12acde135fa2574c30a7",
+    "name" : "Login : Cover a unsuccessful login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "801ae183f88e3972a0c84c0e3645a03d",
+    "name" : "Pagination : After listing a more than one page long data list, navigate to the next page of the data list",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a8e465d0755b42f217177c3c5f5b366c",
+    "name" : "Registration : Cover a unsuccessful registration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "779f49d42543e603b246c88b2fd0b19b",
+    "name" : "Using Privacy Statement : Cover a unsuccessful Privacy Policy open",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }
