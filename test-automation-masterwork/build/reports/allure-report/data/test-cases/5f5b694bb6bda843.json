@@ -1,0 +1,50 @@
+{
+  "uid" : "5f5b694bb6bda843",
+  "name" : "[17] Roderick, Messum, rmessum5i@blogtalkradio.com, 1913635626, Q0204ab5",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "7b889c08029cfdf374b1bba26c9c5999",
+  "time" : {
+    "start" : 1628104125001,
+    "stop" : 1628104130761,
+    "duration" : 5760
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f5b694bb6bda843.json",
+  "parameterValues" : [ ]
+}

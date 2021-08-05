@@ -1,0 +1,50 @@
+{
+  "uid" : "ef731b896657da7a",
+  "name" : "[28] Marcelia Sawford, at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum, 1",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "31ede04986ed17cd55c0cba8ba088c9e",
+  "time" : {
+    "start" : 1628103902312,
+    "stop" : 1628103911133,
+    "duration" : 8821
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef731b896657da7a.json",
+  "parameterValues" : [ ]
+}

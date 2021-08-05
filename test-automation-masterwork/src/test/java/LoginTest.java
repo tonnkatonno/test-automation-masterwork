@@ -1,6 +1,8 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -17,6 +19,8 @@ public class LoginTest {
     Selenide.closeWindow();
   }
 
+  @Description("Cover various successful logins, navigates from the home page to the login page, and fills the fields from the .csv, and logs in")
+  @Story("Login : Cover various successful login")
   @ParameterizedTest
   @CsvFileSource(resources = "registered_users.csv", numLinesToSkip = 1)
   public void loginTestShouldPass(String email, String password) {
@@ -30,6 +34,8 @@ public class LoginTest {
     this.loginPage.logOut();
   }
 
+  @Description("Cover a unsuccessful login, navigates from the home page to the login page, and fills the fields with invalid data, and attempt to log in")
+  @Story("Login : Cover a unsuccessful login")
   @Test
   public void loginTestShouldFail() {
     this.homePage = new HomePage();
@@ -42,6 +48,8 @@ public class LoginTest {
         .withFailMessage("Login process not failed! It should fail...");
   }
 
+  @Description("Cover a successful login, navigates from the home page to the login page, and fills the fields , and logs in")
+  @Story("Login : Cover a successful login")
   @Test
   public void simpleLogin() {
     this.homePage = new HomePage();
@@ -52,13 +60,5 @@ public class LoginTest {
 
     assertThat(this.loginPage.isLoggedIn()).isTrue().withFailMessage("Login process failed!");
     this.homePage.navigateToHomePage();
-  }
-
-  public HomePage getHomePage() {
-    return homePage;
-  }
-
-  public LoginPage getLoginPage() {
-    return loginPage;
   }
 }

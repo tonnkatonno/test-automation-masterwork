@@ -1,0 +1,50 @@
+{
+  "uid" : "5a046199826a665d",
+  "name" : "[13] Gal, Millhill, gmillhill5e@163.com, 5425577991, RadPkvGa",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "fa337b2bf567afe7b0f44f4424bdd193",
+  "time" : {
+    "start" : 1628104101781,
+    "stop" : 1628104107556,
+    "duration" : 5775
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a046199826a665d.json",
+  "parameterValues" : [ ]
+}

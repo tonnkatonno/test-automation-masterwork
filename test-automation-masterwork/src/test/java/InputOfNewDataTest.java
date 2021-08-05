@@ -1,6 +1,8 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -14,6 +16,8 @@ public class InputOfNewDataTest {
     Selenide.closeWindow();
   }
 
+  @Description("Navigates to the home page, then logs in, navigate to the MacBook page, fills the comment fields up from the comment_data.csv, and then sends the comment")
+  @Story("Input of new data : At least one new data input, validate the input was successful")
   @ParameterizedTest
   @CsvFileSource(resources = "comment_data.csv", numLinesToSkip = 1)
   public void commentsShouldSubmittedProperly(String name, String comment, int rating) {

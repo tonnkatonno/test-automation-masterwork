@@ -1,0 +1,50 @@
+{
+  "uid" : "bf87be764aac26fc",
+  "name" : "[9] Aarika Scutchin, maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum, 5",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "4372358e12c1c7f1fbfcd59fadae5a8b",
+  "time" : {
+    "start" : 1628103745792,
+    "stop" : 1628103753985,
+    "duration" : 8193
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf87be764aac26fc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "69284e8223e4673c9952b238191a3c05",
+    "name" : "RegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 38,
+      "unknown" : 0,
+      "total" : 38
+    }
+  }, {
+    "uid" : "fe432328a43ca5d7a8bd2d6c10122894",
+    "name" : "ExistingDataModification",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 37,
+      "unknown" : 0,
+      "total" : 37
+    }
+  }, {
+    "uid" : "f21ebfc8616b30c05501c98ca6402ac9",
+    "name" : "InputOfNewDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 37,
+      "unknown" : 0,
+      "total" : 37
+    }
+  }, {
+    "uid" : "b9a196f305ae86bf6bf452c18364a114",
+    "name" : "LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "825db8c30fc5adfffc0a8f7e81e07324",
+    "name" : "UsingPrivacyStatementTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "cd5cb1469eecce533caa8444b49f3a83",
+    "name" : "ListingDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "4a1c51ddfc94743777f2c0459e8887c3",
+    "name" : "PaginationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

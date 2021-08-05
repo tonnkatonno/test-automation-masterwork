@@ -1,0 +1,50 @@
+{
+  "uid" : "1fd37eb8a6d21ee3",
+  "name" : "registrationShouldFail()",
+  "fullName" : "RegistrationTest.registrationShouldFail",
+  "historyId" : "3c97b693fe38e9f493f6e86aca5f6a42",
+  "time" : {
+    "start" : 1628104026097,
+    "stop" : 1628104031716,
+    "duration" : 5619
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldFail"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fd37eb8a6d21ee3.json",
+  "parameterValues" : [ ]
+}

@@ -3,6 +3,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
@@ -15,6 +17,8 @@ public class PaginationTest {
     Selenide.closeWindow();
   }
 
+  @Description("Navigates to the home page, then the all desktops page, and counts the number of elements in the page it should 15")
+  @Story("Pagination : After listing a more than one page long data list, navigate to the next page of the data list")
   @Test
   public void paginationShouldPass() {
     HomePage homePage = new HomePage();

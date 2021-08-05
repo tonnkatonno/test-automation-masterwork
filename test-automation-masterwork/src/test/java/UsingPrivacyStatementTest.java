@@ -1,6 +1,8 @@
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import pages.HomePage;
@@ -13,6 +15,8 @@ public class UsingPrivacyStatementTest {
     Selenide.closeWindow();
   }
 
+  @Description("Cover a successful privacy statement open, navigates from the home page to the register page, open up the Privacy Policy, and then when it appears closes it.")
+  @Story("Using Privacy Statement : Cover a successful Privacy Policy open and close")
   @Test
   public void usingPrivacyShouldPass() {
     HomePage homePage = new HomePage();
@@ -24,6 +28,8 @@ public class UsingPrivacyStatementTest {
         .withFailMessage("Privacy Policy close button is displayed but it shouldn't");
   }
 
+  @Description("Cover a unsuccessful privacy statement open, navigates from the home page to the register page, open up the Privacy Policy")
+  @Story("Using Privacy Statement : Cover a unsuccessful Privacy Policy open")
   @Test
   public void usingPrivacyShouldFail() {
     HomePage homePage = new HomePage();

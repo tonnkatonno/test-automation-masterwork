@@ -1,0 +1,50 @@
+{
+  "uid" : "45c9251d34741156",
+  "name" : "[6] Uriel, Mynott, umynott57@nifty.com, 8563372026, t2807l",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "e9dd5b4a60d10d33003f5169a6f9f08d",
+  "time" : {
+    "start" : 1628104061265,
+    "stop" : 1628104066926,
+    "duration" : 5661
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45c9251d34741156.json",
+  "parameterValues" : [ ]
+}

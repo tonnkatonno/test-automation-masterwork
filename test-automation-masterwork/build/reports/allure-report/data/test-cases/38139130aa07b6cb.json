@@ -1,0 +1,50 @@
+{
+  "uid" : "38139130aa07b6cb",
+  "name" : "[4] Coralyn, Ghent",
+  "fullName" : "ExistingDataModification.commentsShouldSubmittedProperly",
+  "historyId" : "75fb1feb06ee27019e2d6ee853c928d6",
+  "time" : {
+    "start" : 1628103361408,
+    "stop" : 1628103370679,
+    "duration" : 9271
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "ExistingDataModification"
+  }, {
+    "name" : "testClass",
+    "value" : "ExistingDataModification"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "ExistingDataModification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38139130aa07b6cb.json",
+  "parameterValues" : [ ]
+}

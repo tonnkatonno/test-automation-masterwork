@@ -1,0 +1,50 @@
+{
+  "uid" : "c2f9839b753a396a",
+  "name" : "[15] Valma, Wattins, vwattins5g@mail.ru, 7738150993, KWYNqCaO",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "b539653632d9aa2ec48f49630ba10268",
+  "time" : {
+    "start" : 1628104113444,
+    "stop" : 1628104119270,
+    "duration" : 5826
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2f9839b753a396a.json",
+  "parameterValues" : [ ]
+}

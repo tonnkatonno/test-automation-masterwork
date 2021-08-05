@@ -1,0 +1,50 @@
+{
+  "uid" : "2bc8054ee9318763",
+  "name" : "[37] Meredith, Creak, mcreak62@chron.com, 8745299318, 4Y68X2o",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "4c72d451394140dcea6143054c81499e",
+  "time" : {
+    "start" : 1628104241219,
+    "stop" : 1628104247065,
+    "duration" : 5846
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bc8054ee9318763.json",
+  "parameterValues" : [ ]
+}

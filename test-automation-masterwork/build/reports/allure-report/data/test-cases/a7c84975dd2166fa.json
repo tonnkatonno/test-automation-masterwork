@@ -1,0 +1,50 @@
+{
+  "uid" : "a7c84975dd2166fa",
+  "name" : "[21] Lucina, Alesbrook, lalesbrook5m@deviantart.com, 4213864089, fClTEJS5",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "f94ed7f273b43284f589def8713e0d64",
+  "time" : {
+    "start" : 1628104148238,
+    "stop" : 1628104154092,
+    "duration" : 5854
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7c84975dd2166fa.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "d0dd636da5e37461",
+  "name" : "[2] dgauld3e@themeforest.net, Jj1Gq2z5cjnO",
+  "fullName" : "LoginTest.loginTestShouldPass",
+  "historyId" : "ce948c3d618faf0a7b46b31bf3035e05",
+  "time" : {
+    "start" : 1628104009294,
+    "stop" : 1628104014978,
+    "duration" : 5684
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTestShouldPass"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0dd636da5e37461.json",
+  "parameterValues" : [ ]
+}

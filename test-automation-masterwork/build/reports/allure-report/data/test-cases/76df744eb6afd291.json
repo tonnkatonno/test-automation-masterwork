@@ -1,0 +1,50 @@
+{
+  "uid" : "76df744eb6afd291",
+  "name" : "[22] Leese, Wheatman, lwheatman5n@list-manage.com, 7455998499, xW2SKuTylfHG",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "964ece6a7f9901bcacc7724aa0dcfa6a",
+  "time" : {
+    "start" : 1628104154096,
+    "stop" : 1628104159887,
+    "duration" : 5791
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76df744eb6afd291.json",
+  "parameterValues" : [ ]
+}

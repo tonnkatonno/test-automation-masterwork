@@ -1,0 +1,50 @@
+{
+  "uid" : "ed2bcb8f189ac9a4",
+  "name" : "[7] Porter, Dougan, pdougan58@liveinternet.ru, 4342420338, 68Ztpb",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "946babf022c34aaa35c0e7b3ef12f309",
+  "time" : {
+    "start" : 1628104066928,
+    "stop" : 1628104072753,
+    "duration" : 5825
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed2bcb8f189ac9a4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "e411ac8c8bac07bb",
+  "name" : "[20] Darya Kalf, turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique, 4",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "7ecb0281792a843dc0babe49318b10d4",
+  "time" : {
+    "start" : 1628103836217,
+    "stop" : 1628103844312,
+    "duration" : 8095
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e411ac8c8bac07bb.json",
+  "parameterValues" : [ ]
+}

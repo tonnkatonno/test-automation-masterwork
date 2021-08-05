@@ -1,0 +1,50 @@
+{
+  "uid" : "67c50de142654c50",
+  "name" : "[27] Evaleen Kach, aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque, 2",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "5afd37dcc4193f02078699efb39d0870",
+  "time" : {
+    "start" : 1628103893619,
+    "stop" : 1628103902310,
+    "duration" : 8691
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67c50de142654c50.json",
+  "parameterValues" : [ ]
+}

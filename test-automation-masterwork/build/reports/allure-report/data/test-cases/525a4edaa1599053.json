@@ -1,0 +1,50 @@
+{
+  "uid" : "525a4edaa1599053",
+  "name" : "[31] Gwenora, Mealiffe, gmealiffe5w@goo.ne.jp, 3599392259, MggdPF",
+  "fullName" : "RegistrationTest.registrationShouldBeSuccessful",
+  "historyId" : "eb8234bc100585cfdd1b24c6d963a56b",
+  "time" : {
+    "start" : 1628104206435,
+    "stop" : 1628104212249,
+    "duration" : 5814
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationShouldBeSuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "525a4edaa1599053.json",
+  "parameterValues" : [ ]
+}

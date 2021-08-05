@@ -1,0 +1,50 @@
+{
+  "uid" : "240c8dccaa0f81d7",
+  "name" : "[16] Cathy Standon, vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo, 2",
+  "fullName" : "InputOfNewDataTest.commentsShouldSubmittedProperly",
+  "historyId" : "3e7bce5a53e0753b078f6f37e09fe58a",
+  "time" : {
+    "start" : 1628103802920,
+    "stop" : 1628103811255,
+    "duration" : 8335
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0VTJOVSC"
+  }, {
+    "name" : "thread",
+    "value" : "20852@LAPTOP-0VTJOVSC.Test worker(12)"
+  }, {
+    "name" : "package",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "commentsShouldSubmittedProperly"
+  }, {
+    "name" : "suite",
+    "value" : "InputOfNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "240c8dccaa0f81d7.json",
+  "parameterValues" : [ ]
+}
